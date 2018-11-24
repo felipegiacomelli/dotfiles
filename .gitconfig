@@ -1,0 +1,12 @@
+[core]
+	editor = vim
+
+[user]
+	email = felipe.g@sinmec.ufsc.br
+	name = Felipe Giacomelli
+
+[github]
+	user = felipegiacomelli
+
+[credential]
+	helper = store --file $HOME/.git-credentials
