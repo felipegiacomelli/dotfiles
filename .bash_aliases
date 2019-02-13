@@ -1,8 +1,5 @@
 # ~/.bash_aliases
 
-alias ctet='cd . && cmake .. -DCMAKE_INSTALL_PREFIX=/home/felipe/Libraries/tetgen-1.5.1/'
-alias ctri='cd . && cmake .. -DCMAKE_INSTALL_PREFIX=/home/felipe/Libraries/triangle-1.6.0/'
-
 # System
     alias ls='ls --color=auto'
     alias ll='ls -l --color=auto'

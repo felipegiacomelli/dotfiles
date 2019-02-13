@@ -7,8 +7,15 @@
 [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
 
 # Pretty colours
-if [ -f ~/.dir_colors ]; then
+if [ -f ~/.dir_colors ]
+then
     eval $(dircolors -b ~/.dir_colors)
+fi
+
+# Git completion
+if [ -f ~/.git-completion.bash ]
+then
+    source ~/.git-completion.bash
 fi
 
 PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
@@ -43,3 +50,5 @@ export METIS_DIR=/home/felipe/Libraries/metis-5.1.0/
 export TRIANGLE_DIR=/home/felipe/Libraries/triangle-1.6.0/
 export TETGEN_DIR=/home/felipe/Libraries/tetgen-1.5.1/
 export MSHTOCGNS_DIR=/home/felipe/Libraries/mshtocgns-0.13.0/
+export MSHTOCGNS_DIR=/home/felipe/Libraries/mshtocgns-0.14.0/
+export MSHTOCGNS_DIR=/home/felipe/Libraries/mshtocgns-0.14.0/
