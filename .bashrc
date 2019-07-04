@@ -26,28 +26,28 @@ export NUMBER_OF_CORES=`nproc`
 export BACKUP='/run/media/felipe/BACKUP'
 export FELIPEWG='/run/media/felipe/FelipeWG'
 
-export LIBRARIES_FILES=/home/felipe/Felipe/downloads
-export SINMEC_WORKSPACE=/home/felipe/Build/workspace
+export CMAKE_MODULES=$HOME/Github/LibraryInstaller/CMakeModules
+export CMAKE_INCLUDES=$HOME/Github/LibraryInstaller/CMakeIncludes
 
-export CMAKE_MODULES=/home/felipe/Github/LibraryInstaller/CMakeModules
-export EBFVM_WORKSPACE=/home/felipe/SINMEC2018/Benchmark
-
-export EFVLIB2018_DIR=/home/felipe/Libraries/EFVLib2018-0.12.0/
-
+export PATH=$HOME/Libraries/openmpi-4.0.1/bin:$HOME/Libraries/openmpi-4.0.1/lib:$HOME/Libraries/openmpi-4.0.1/include:$PATH
+export PATH=$HOME/Libraries/cgns-3.4.0/release/shared/bin:$PATH
 export PATH=/opt/gmsh-3.0.6-Linux64/bin:$PATH
-export PATH=/home/felipe/Libraries/openmpi-3.0.1/bin:/home/felipe/Libraries/openmpi-3.0.1/lib:/home/felipe/Libraries/openmpi-3.0.1/include:$PATH
-export PATH=/home/felipe/Libraries/cgnstools-3.3.1/bin:/home/felipe/Libraries/cgnstools-3.3.1/lib:/home/felipe/Libraries/cgnstools-3.3.1/include:$PATH
 
-export OPENMPI_DIR=/home/felipe/Libraries/openmpi-3.0.1/
-export BOOST_DIR=/home/felipe/Libraries/boost-1.68.0/
-export PETSC_DIR=/home/felipe/Libraries/petsc-3.10.2/
-export CGNS_DIR=/home/felipe/Libraries/cgns-3.3.1/
-export MUPARSER_DIR=/home/felipe/Libraries/muparser-2.2.6/
-export HDF5_DIR=/home/felipe/Libraries/hdf5-1.8.19/
-export METIS_DIR=/home/felipe/Libraries/metis-5.1.0/
-export TRIANGLE_DIR=/home/felipe/Libraries/triangle-1.6.0/
-export TETGEN_DIR=/home/felipe/Libraries/tetgen-1.5.1/
-export HDF5_DIR=/home/felipe/Libraries/hdf5-1.8.19/
-export METIS_DIR=/home/felipe/Libraries/metis-5.1.0/
-export MSHTOCGNS_DIR=/home/felipe/Libraries/mshtocgns-0.15.0/
-export EIGEN3_DIR=/home/felipe/Libraries/eigen-3.3.7/
+export OPENMPI_DIR=$HOME/Libraries/openmpi-4.0.1/
+export BOOST_DIR=$HOME/Libraries/boost-1.70.0/
+export PETSC_DIR=$HOME/Libraries/petsc-3.11.1/
+export HDF5_DIR=$HOME/Libraries/hdf5-1.10.5/
+export CGNS_DIR=$HOME/Libraries/cgns-3.4.0/
+export MUPARSER_DIR=$HOME/Libraries/muparser-2.2.6/
+export MSHTOCGNS_DIR=$HOME/Libraries/mshtocgns-1.0.0/
+export METIS_DIR=$HOME/Libraries/metis-5.1.0/
+export TRIANGLE_DIR=$HOME/Libraries/triangle-1.6.0/
+export TETGEN_DIR=$HOME/Libraries/tetgen-1.5.1/
+export EIGEN3_DIR=$HOME/Libraries/eigen-3.3.7/
+export PGD_DIR=$HOME/Libraries/pgd-0.0.0/
+
+export EFVLIB2018_DIR=$HOME/Libraries/EFVLib2018-1.0.0/
+export PMTLIB2018_DIR=$HOME/Libraries/PMTLib2018-1.0.0/
+export EBFVM_WORKSPACE=$HOME/SINMEC2018/Benchmark
+export TRIANGLE_DIR=$HOME/Libraries/triangle-1.6.0/
+export TETGEN_DIR=$HOME/Libraries/tetgen-1.5.1/
