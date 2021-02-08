@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cp .bash_aliases ~/
 cp .bash_profile ~/
 cp .bashrc ~/

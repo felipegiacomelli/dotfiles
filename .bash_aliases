@@ -24,6 +24,8 @@
     alias ..bashrc='. ~/.bashrc'
     alias ..baliases='. ~/.bash_aliases'
 
+    alias ..xinitrc='test -f ~/Dropbox/Xkeymap && xkbcomp ~/Dropbox/Xkeymap $DISPLAY'
+
 # Applications
     alias sss='sublime *.sublime-project'
     alias ggg='g++ -o main main.cpp -Wall -Wextra -g -DDEBUG -I$BOOST_DIR/Debug/Shared/include'
@@ -42,7 +44,6 @@
     alias ftest='make -C ../ test'
     alias FTEST='make -C ../ test'
 
-    # alias p='python3 -B'
     alias p='python3'
 
     alias ctar='tar -czvf'

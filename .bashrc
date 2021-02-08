@@ -29,7 +29,16 @@ export FELIPEWG='/run/media/felipe/FelipeWG'
 export CMAKE_MODULES=$HOME/Github/LibraryInstaller/CMakeModules
 export CMAKE_INCLUDES=$HOME/Github/LibraryInstaller/CMakeIncludes
 
-export EFVLIB2018_DIR=$HOME/Libraries/EFVLib2018-2.0.2/
-export PMTLIB2018_DIR=$HOME/Libraries/PMTLib2018-2.0.2/
+export EBFVM_WORKSPACE=$HOME/SINMEC2018/Benchmark
+export EFVLIB2018_DIR=$HOME/Libraries/EFVLib2018-5.0.0
+export PMTLIB2018_DIR=$HOME/Libraries/PMTLib2018-5.0.0
 
-# export PATH=/opt/gmsh-3.0.6-Linux64/bin:$PATH
+export OPENMPI_DIR=$HOME/Libraries/openmpi-4.0.5
+export PATH=$HOME/Libraries/openmpi-4.0.5/bin:$HOME/Libraries/openmpi-4.0.5/lib:$HOME/Libraries/openmpi-4.0.5/include:$PATH
+export BOOST_DIR=$HOME/Libraries/boost-1.74.0
+export METIS_DIR=$HOME/Libraries/metis-5.1.0
+export PETSC_DIR=$HOME/Libraries/petsc-3.14.3
+export HDF5_DIR=$HOME/Libraries/hdf5-1.10.5
+export CGNS_DIR=$HOME/Libraries/cgns-4.1.2
+export MSHTOCGNS_DIR=$HOME/Libraries/mshtocgns-8.0.0
+export DEI_DIR=$HOME/Libraries/dei-5.0.0
